@@ -1,0 +1,27 @@
+GET http://localhost:3001/
+
+###
+POST http://localhost:3001/api/pessoas HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "David",
+    "email": "david@archlinux.com",
+    "telefone": "131478290"
+}
+
+###
+DELETE http://localhost:3001/api/pessoas/16
+
+###
+PUT http://localhost:3001/api/pessoas/57 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "David",
+    "email": "david@gmail.com",
+    "telefone": "131478290"
+}
+
+###
+GET http://localhost:3001/api/pessoas/57

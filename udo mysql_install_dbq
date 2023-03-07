@@ -1,0 +1,72 @@
+mar 05 21:32:30 david-allseries systemd[1]: Starting MySQL Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mysqld.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mysqld.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 1965.[0m
+mar 05 21:32:30 david-allseries mysqld_pre_systemd[15300]: mktemp: failed to create file via template ‘/var/lib/mysql-files/install-validate-password-plugin.XXXXXX.sql’: No such file or directory
+mar 05 21:32:30 david-allseries mysqld_pre_systemd[15301]: chmod: cannot access '': No such file or directory
+mar 05 21:32:30 david-allseries mysqld_pre_systemd[15299]: /usr/bin/mysqld_pre_systemd: line 43: : No such file or directory
+mar 05 21:32:30 david-allseries mysqld_pre_systemd[15299]: /usr/bin/mysqld_pre_systemd: line 44: $initfile: ambiguous redirect
+mar 05 21:32:32 david-allseries mysqld_pre_systemd[15302]: 2023-03-06T00:32:32.515430Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+mar 05 21:32:32 david-allseries mysqld_pre_systemd[15302]: 2023-03-06T00:32:32.566209Z 0 [System] [MY-013169] [Server] /usr/bin/mysqld (mysqld 8.0.31) initializing of server in progress as process 15302
+mar 05 21:32:33 david-allseries mysqld_pre_systemd[15302]: 2023-03-06T00:32:33.037898Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+mar 05 21:32:56 david-allseries mysqld_pre_systemd[15302]: 2023-03-06T00:32:56.696167Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mar 05 21:33:21 david-allseries mysqld_pre_systemd[15302]: 2023-03-06T00:33:21.857431Z 0 [ERROR] [MY-010455] [Server] Failed to open the bootstrap file (null)
+mar 05 21:33:21 david-allseries mysqld_pre_systemd[15302]: 2023-03-06T00:33:21.857446Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+mar 05 21:33:21 david-allseries mysqld_pre_systemd[15302]: 2023-03-06T00:33:21.857451Z 0 [ERROR] [MY-010119] [Server] Aborting
+mar 05 21:33:31 david-allseries mysqld_pre_systemd[15302]: 2023-03-06T00:33:31.651790Z 0 [System] [MY-010910] [Server] /usr/bin/mysqld: Shutdown complete (mysqld 8.0.31)  Source distribution.
+mar 05 21:33:32 david-allseries mysqld[16593]: 2023-03-06T00:33:32.029117Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+mar 05 21:33:32 david-allseries mysqld[16593]: 2023-03-06T00:33:32.029191Z 0 [System] [MY-010116] [Server] /usr/bin/mysqld (mysqld 8.0.31) starting as process 16593
+mar 05 21:33:32 david-allseries mysqld[16593]: 2023-03-06T00:33:32.199521Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.082381Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mar 05 21:33:33 david-allseries mysqld[16593]: mysqld: Table 'mysql.plugin' doesn't exist
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.361446Z 0 [ERROR] [MY-010735] [Server] Could not open the mysql.plugin table. Please perform the MySQL upgrade procedure.
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.361593Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.361692Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.361789Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.361976Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.362060Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.362141Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.362221Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+mar 05 21:33:33 david-allseries mysqld[16593]: 2023-03-06T00:33:33.756701Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.061654Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.090083Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.090114Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.112433Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.112691Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.112716Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.113032Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.113061Z 0 [ERROR] [MY-010952] [Server] The privilege system failed to initialize correctly. For complete instructions on how to upgrade MySQL to a new version please see the 'Upgrading MySQL' section from the MySQL manual.
+mar 05 21:33:34 david-allseries mysqld[16593]: 2023-03-06T00:33:34.113125Z 0 [ERROR] [MY-010119] [Server] Aborting
+mar 05 21:33:35 david-allseries mysqld[16593]: 2023-03-06T00:33:35.327926Z 0 [System] [MY-010910] [Server] /usr/bin/mysqld: Shutdown complete (mysqld 8.0.31)  Source distribution.
+mar 05 21:33:35 david-allseries systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysqld.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mysqld.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+mar 05 21:33:35 david-allseries systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmysqld.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mysqld.service has entered the 'failed' state with result 'exit-code'.[0m
+mar 05 21:33:35 david-allseries systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mysqld.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mysqld.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 1965 and the job result is failed.[0m
+mar 05 21:33:35 david-allseries systemd[1]: mysqld.service: Consumed 2.287s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mysqld.service completed and consumed the indicated resources.[0m
